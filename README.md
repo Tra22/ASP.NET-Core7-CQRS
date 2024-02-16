@@ -7,6 +7,7 @@ ASP.NET Core Project for learning. Every one should be able to use this templae 
 3. Swagger for API's Endpoint
 4. AutoMapper
 5. Dapper
+6. MediatR
 
 ## Getting Started
 These instructions will get you to setup the project, install sdk and add package (CLI or Package manager console).
@@ -27,7 +28,9 @@ These instructions will get you to setup the project, install sdk and add packag
        `dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL -v 7.0.11`
      - AutoMapper
        `dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection`
-    - Dapper
+     - MediatR
+       `dotnet add package MediatR`
+     - Dapper
        `dotnet add package Dapper`
 4.  Migrate Model to Database<br>
      - Command Line<br>
